@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #70c6c7;
+    background-color: #656366;
 }
 
 .resume-contents {
@@ -25,13 +25,13 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #00204A;
+    background-color: #4f074a;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #4B6982;
+    background-color: #9e9a9c;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -101,7 +101,7 @@ body {
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
-    color: #2E86C1;
+    color: #c91b95;
 }
 
 .skills ul {
@@ -140,15 +140,16 @@ body {
 }
 
 .right-title {
-    color: #70C6C7;
+    color: #4f074a;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
     display: flex;
     align-items: center;
-    padding: 2rem 0;
+    padding-top: 70px;
     position: relative;
+    padding-left: 30px;
 }
 
 .gap {
@@ -169,8 +170,10 @@ body {
 
 .text{
     font-size: 20px;
-    color: #ffffff;
+    color: #49042c;
+    font-weight: bold;
     padding-left: 50px;
+    letter-spacing: 2px;
 }
 
 .experience-contents,
@@ -179,7 +182,12 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #F1F8FD;
+    color: #49042c;
+    padding-left: 45px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    gap: 20px;
 }
 
 .exp-company-name,
@@ -189,7 +197,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: #000000;
     padding-bottom: .4rem;
 }
 
@@ -208,7 +216,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: #000000;
     padding-bottom: .4rem;
 }
 
