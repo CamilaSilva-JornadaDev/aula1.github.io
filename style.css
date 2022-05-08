@@ -190,7 +190,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #383535;
+    color: #000000b1;
     padding-left: 25px;
     padding-top: 10px;
     font-size: 14px;
@@ -200,7 +200,7 @@ body {
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -219,8 +219,8 @@ body {
 .exp-position,
 .education-subject,
 .awards-name {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 550;  
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #000000;
